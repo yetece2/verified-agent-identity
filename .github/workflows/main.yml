@@ -10,7 +10,7 @@ on:
       agent_description:
         description: 'yetece'
         required: true
-        default: 'yetece AI Agent'
+        default: 'gm_yetece AI Agent'
 
 jobs:
   verify:
@@ -38,4 +38,4 @@ jobs:
 
       - name: Step 3 - Link Human to Agent
         run: |
-          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "yetece", "description": "yetece AI Agent"}'
+          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "yetece", "description": "gm_yetece AI Agent"}'
