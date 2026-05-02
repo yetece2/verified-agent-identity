@@ -33,7 +33,7 @@ jobs:
           cd scripts
           npm install
           
-      - name: Step 2 - Create new Ethereum Identity
+     - name: Step 2 - Create new Ethereum Identity
         run: node scripts/createNewEthereumIdentity.js
 
       - name: Step 3 - Link Human to Agent
